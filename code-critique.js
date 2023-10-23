@@ -6,5 +6,25 @@
 
 // Copy and paste the code output here.
 
-// Critique the code output. 
-// Things to consider in your critique: Were you surprised by the output? Was the output what you expected? Is the correct output being rendered? What do you like about the code? What do you dislike? Are there best practices that are not being followed? Would you take a different approach? What did you learn? 
+// def find_first_vowel_index(input_string):
+//     vowels = "AEIOUaeiou"
+    
+//     for index, char in enumerate(input_string):
+//         if char in vowels:
+//             return index
+    
+//     # If no vowel is found in the string, return -1 or handle it as needed.
+//     return -1
+
+// # Example usage:
+// input_string = "Hello, World!"
+// result = find_first_vowel_index(input_string)
+// if result != -1:
+//     print(f"The index of the first vowel in the string is {result}.")
+// else:
+//     print("No vowels found in the string.")
+
+
+// Critique the code output.
+
+// I inserted the prompt in ChatGPT and got a function in Python. I'm a tiny bit familiar with Python. Compared to JS, instead of use var, let, or const, for declaration. Also, no camelCase. No () are used for the iteration and instead of "console.log()", Python uses "print()". Not familiar with the language so don't know if this is correct or not.

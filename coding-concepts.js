@@ -9,28 +9,28 @@
 // --------------------1) What will this log?
 
 const cohort = "Hotel 2023"
-// console.log(cohort.split(" "))
+console.log(cohort.split(" "))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: ["Hotel", "2023"]
+// b) Verify and explain: .split() turns a string into an array. Spacing the quotation marks in the parentheses ensure the strings are seperated by word and not by characters.
 
 // --------------------2) What will this log?
 
 const greeter = (name) => {
   `Hello, ${name}!`
 }
-// console.log(greeter("LEARN Student"))
+console.log(greeter("LEARN Student"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: 'Hello, undefined!'
+// b) Verify and explain: It came back undefined. "name" isn't declared.
 
 // --------------------3) What will this log?
 
 const onlyOdds = [11, 12, 13, 14, 15].filter((number) => number % 2 !== 0)
-// console.log(onlyOdds)
+console.log(onlyOdds)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: 11, 13, 15
+// b) Verify and explain: Forgot the []. It came back [11, 13, 15]. The function takes one of the numbers and see if it has a remainder when divided by two. After, with the bang operation, it takes and outputs the numbers that aren't divisible by 2.
 
 // --------------------4) What will this log?
 
@@ -40,10 +40,10 @@ const myCodingSkills = {
   databases: "PostgreSQL",
   versionControl: "GitHub"
 }
-// console.log(myCodingSkills.languages[0])
+console.log(myCodingSkills.languages[0])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: JavaScript
+// b) Verify and explain: In the Object "myCodingSkills", we are calling for the key "language", and the 0 indexed value which is "JavaScript".
 
 // --------------------5) What will this log?
 
@@ -55,7 +55,7 @@ class Learn {
   }
 }
 const learnStudent = new Learn("George")
-// console.log(learnStudent)
+console.log(learnStudent)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: Learn {student = "George"}
+// b) Verify and explain: It came back: Learn { student: 'George', cohort: 'Hotel', year: 2023 }. "George was pushed into the parameter "name", and pushed into the value for "this.student".
